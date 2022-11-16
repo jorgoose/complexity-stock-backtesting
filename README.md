@@ -1,6 +1,8 @@
 # Do Companies With Simpler 10-K Filings Outperform?
 Testing the historical performance of company's stocks based on the inherent complexity of their 10-K report filed with the SEC.
 
+The "complexity" score of each report was determined by a [Flesch-Kincaid readability](https://en.wikipedia.org/wiki/Flesch%E2%80%93Kincaid_readability_tests) scoring system.
+
 Overview of Python scripts used for analysis:  
 <br/>
 *reportCollector.py* - Used to gather 10-K filings for each company  
